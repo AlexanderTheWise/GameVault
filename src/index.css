@@ -1,0 +1,31 @@
+@import "/node_modules/@fortawesome/fontawesome-free/css/all.min.css";
+@import "/node_modules/@fontsource/poppins/index.css";
+
+body {
+  margin: 0;
+  background-color: #27292a;
+  display: flex;
+  justify-content: center;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+ul,
+li {
+  list-style: none;
+  padding-inline-start: 0px;
+}
+
+a {
+  color: inherit;
+  text-decoration: inherit;
+}
+
+html {
+  font-family: "Poppins", sans-serif;
+}
